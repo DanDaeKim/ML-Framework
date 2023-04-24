@@ -1,4 +1,4 @@
-# Simple Machine Learning Framework
+# Simple-ML-Framework
 
 A basic neural network framework built from scratch in Python. This project demonstrates the core concepts of creating a machine learning framework, including layers, activation functions, forward and backward propagation, and training.
 
@@ -16,7 +16,7 @@ A basic neural network framework built from scratch in Python. This project demo
   - git clone https://github.com/DanDaeKim/ML-Framework.git
 
 2. Change to the project directory:
-  - cd simple_ml_framework
+  - cd Simple-ML-Framework
   
 3. Create a virtual environment and activate it:
   - python -m venv venv
