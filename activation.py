@@ -13,3 +13,17 @@ class Activation(Layer):
 
     def backward(self, output_gradient, learning_rate):
         return output_gradient * self.activation_func_prime(self.input)
+
+    def relu(x):
+        return np.maximum(0, x)
+
+    def relu_prime(x):
+        return (x > 0).astype(float)
+
+    def sigmoid(x):
+        return 1 / (1 + np.exp(-x))
+
+    def sigmoid_prime(x):
+        s = sigmoid(x)
+        return s * (1 - s)
+
